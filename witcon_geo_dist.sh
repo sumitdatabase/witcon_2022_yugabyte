@@ -1,3 +1,4 @@
+#!$(which bash)
 # Set up a table with geo distribution of a table. 
 # Bring up multi-region database first - docker 
 
@@ -78,7 +79,7 @@ SQL
 # Verify the tablespaces 
 
 pause
-echo "\n Now let's verify the new tablespaces created  \n"
+echo "\n Now let's verify the new tablespaces created. Once you see the list of tablespaces, type "q" to close the display of tablespace listing  \n"
 
 psql -e -p 5001 -h localhost -U yugabyte -c  "\db+"
 
