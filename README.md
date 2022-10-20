@@ -51,6 +51,6 @@ After completing the pre-requisites
 ----------------------------------
 
 1. Run this script first. Watch the script output. If you get an error on running docker then try running "sudo docker" instead of docker
-    bash witcon_3_node.sh
+    - bash witcon_3_node.sh
 2. Next, run this script
-    bash witcon_geo_dist.sh
+    - bash witcon_geo_dist.sh
