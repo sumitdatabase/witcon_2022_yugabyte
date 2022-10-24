@@ -3,6 +3,7 @@ Multi-region YugabyteDB with geo partitioning - Witcon 2022, Cleveland
 
 Pre-requisites – Distributed SQL Workshop – Witcon Cleveland 2022
  
+Most of the actual scripts below was borrowed from a [blog](https://dev.to/yugabyte/local-reads-from-yugabytedb-raft-followers-5mk) by Frank Pachot. I highly encourage readers to read [his](https://dev.to/franckpachot) blog to learn about Yugabyte and distributed databases.
 
 As pre-requisite you will need docker running on your laptop.
 Your laptop can be a MAC, Linux, or Windows with WSL2 installed. 
