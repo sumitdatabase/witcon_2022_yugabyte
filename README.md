@@ -56,4 +56,4 @@ After completing the pre-requisites
 2. Next, run this script
     - bash witcon_geo_dist.sh
     
-The scripts are all you need to run to understand how  [row-level geo-partitioning](https://docs.yugabyte.com/preview/explore/multi-region-deployments/row-level-geo-partitioning/ in YugabytedDB works.
+The scripts are all you need to run to understand how  [row-level geo-partitioning](https://docs.yugabyte.com/preview/explore/multi-region-deployments/row-level-geo-partitioning/) in YugabytedDB works.
