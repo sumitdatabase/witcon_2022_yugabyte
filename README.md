@@ -1,9 +1,9 @@
 # witcon_2022_yugabyte
-Multi-region YugabyteDB with geo partitioning - Witcon 2022, Cleveland
+Multi-region YugabyteDB with row level geo partitioning - Witcon 2022, Cleveland
 
 Pre-requisites – Distributed SQL Workshop – Witcon Cleveland 2022
  
-Most of the actual scripts below was borrowed from a [blog](https://dev.to/yugabyte/local-reads-from-yugabytedb-raft-followers-5mk) by Frank Pachot. I highly encourage readers to read [his](https://dev.to/franckpachot) blog to learn about Yugabyte and distributed databases.
+Most of the actual scripts below was borrowed from a [blog](https://dev.to/yugabyte/local-reads-from-yugabytedb-raft-followers-5mk) by Frank Pachot. I highly encourage readers to read his blog to learn about Yugabyte and distributed databases.
 
 As pre-requisite you will need docker running on your laptop.
 Your laptop can be a MAC, Linux, or Windows with WSL2 installed. 
@@ -55,3 +55,5 @@ After completing the pre-requisites
     - bash witcon_3_node.sh
 2. Next, run this script
     - bash witcon_geo_dist.sh
+    
+The scripts are all you need to run to understand how  [row-level geo-partitioning](https://docs.yugabyte.com/preview/explore/multi-region-deployments/row-level-geo-partitioning/ in YugabytedDB works.
